@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Features\" />
+    <None Remove="Features\Category\" />
+    <None Remove="Features\Category\Service\" />
+    <None Remove="Features\Meal\" />
+    <None Remove="Features\Employee\" />
+    <None Remove="Features\Employee\Service\" />
+    <None Remove="Features\Table\" />
+    <None Remove="Features\Table\Service\" />
+    <None Remove="Features\Client\" />
+    <None Remove="Features\Client\Service\" />
+    <None Remove="Features\Event\" />
+    <None Remove="Features\Transaction\" />
+    <None Remove="Features\Transaction\Service\" />
+    <None Remove="Common\" />
+    <None Remove="Features\User\" />
+    <None Remove="Features\User\Service\" />
+    <None Remove="Features\Shift\" />
+    <None Remove="Features\Meal\Service\" />
+    <None Remove="..\..\.editorconfig" />
+    <None Remove="Features\Transaction\Utils\" />
+    <None Remove="Features\Order\" />
+    <None Remove="Features\Order\Service\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Features\" />
+    <Folder Include="Features\Category\" />
+    <Folder Include="Features\Category\Service\" />
+    <Folder Include="Features\Meal\" />
+    <Folder Include="Features\Employee\" />
+    <Folder Include="Features\Employee\Service\" />
+    <Folder Include="Features\Table\" />
+    <Folder Include="Features\Table\Service\" />
+    <Folder Include="Features\Client\" />
+    <Folder Include="Features\Client\Service\" />
+    <Folder Include="Features\Event\" />
+    <Folder Include="Features\Transaction\" />
+    <Folder Include="Features\Transaction\Service\" />
+    <Folder Include="Common\" />
+    <Folder Include="Features\User\" />
+    <Folder Include="Features\User\Service\" />
+    <Folder Include="Features\Shift\" />
+    <Folder Include="Features\Meal\Service\" />
+    <Folder Include="Features\Transaction\Utils\" />
+    <Folder Include="Features\Order\" />
+    <Folder Include="Features\Order\Service\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\cafe.Domain\cafe.Domain\cafe.Domain.csproj" />
+    <ProjectReference Include="..\..\cafe.Common\cafe.Common\cafe.Common.csproj" />
+  </ItemGroup>
+</Project>

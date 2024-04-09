@@ -1,0 +1,93 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\cafe.Domain\cafe.Domain\cafe.Domain.csproj" />
+    <ProjectReference Include="..\..\cafe.Common\cafe.Common\cafe.Common.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Features\" />
+    <None Remove="Features\Category\" />
+    <None Remove="Features\Category\Repository\" />
+    <None Remove="Features\Meal\" />
+    <None Remove="Features\Meal\Repository\" />
+    <None Remove="Features\Employee\" />
+    <None Remove="Features\Employee\Repository\" />
+    <None Remove="Features\Table\" />
+    <None Remove="Features\Table\Repository\" />
+    <None Remove="Features\Client\" />
+    <None Remove="Features\Client\Repository\" />
+    <None Remove="Features\Employee\EntityConfiguration\" />
+    <None Remove="Features\Table\EntityConfiguration\" />
+    <None Remove="Features\Event\" />
+    <None Remove="Features\Event\Repository\" />
+    <None Remove="Features\Event\EntityConfiguration\" />
+    <None Remove="Features\Transaction\" />
+    <None Remove="Features\Transaction\Repository\" />
+    <None Remove="Features\Transaction\EntityConfiguration\" />
+    <None Remove="Features\Roles\" />
+    <None Remove="Features\Roles\EntityConfiguration\" />
+    <None Remove="Features\User\" />
+    <None Remove="Features\User\Repository\" />
+    <None Remove="Features\Order\" />
+    <None Remove="Features\Order\EntityConfiguration\" />
+    <None Remove="Features\Order\Repository\" />
+    <None Remove="Features\Shift\" />
+    <None Remove="Features\Shift\Repository\" />
+    <None Remove="Features\Shift\EntityConfiguration\" />
+    <None Remove="Common\" />
+    <None Remove="Features\User\EntityConfiguration\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Features\" />
+    <Folder Include="Features\Category\" />
+    <Folder Include="Features\Category\Repository\" />
+    <Folder Include="Features\Meal\" />
+    <Folder Include="Features\Meal\Repository\" />
+    <Folder Include="Features\Employee\" />
+    <Folder Include="Features\Employee\Repository\" />
+    <Folder Include="Features\Table\" />
+    <Folder Include="Features\Table\Repository\" />
+    <Folder Include="Features\Client\" />
+    <Folder Include="Features\Client\Repository\" />
+    <Folder Include="Features\Employee\EntityConfiguration\" />
+    <Folder Include="Features\Table\EntityConfiguration\" />
+    <Folder Include="Features\Event\" />
+    <Folder Include="Features\Event\Repository\" />
+    <Folder Include="Features\Event\EntityConfiguration\" />
+    <Folder Include="Features\Transaction\" />
+    <Folder Include="Features\Transaction\Repository\" />
+    <Folder Include="Features\Transaction\EntityConfiguration\" />
+    <Folder Include="Features\Roles\" />
+    <Folder Include="Features\Roles\EntityConfiguration\" />
+    <Folder Include="Features\User\" />
+    <Folder Include="Features\User\Repository\" />
+    <Folder Include="Features\Order\" />
+    <Folder Include="Features\Order\EntityConfiguration\" />
+    <Folder Include="Features\Order\Repository\" />
+    <Folder Include="Features\Shift\" />
+    <Folder Include="Features\Shift\Repository\" />
+    <Folder Include="Features\Shift\EntityConfiguration\" />
+    <Folder Include="Common\" />
+    <Folder Include="Features\User\EntityConfiguration\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.3">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="SendGrid" Version="9.29.3" />
+  </ItemGroup>
+</Project>

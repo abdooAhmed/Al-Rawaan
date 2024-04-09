@@ -1,0 +1,121 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Category\" />
+    <None Remove="Meal\" />
+    <None Remove="Category\Enttity\" />
+    <None Remove="Category\Repository\" />
+    <None Remove="Category\Service\" />
+    <None Remove="Meal\Entity\" />
+    <None Remove="Meal\Repository\" />
+    <None Remove="Users\" />
+    <None Remove="Users\entity\" />
+    <None Remove="Category\DTO\" />
+    <None Remove="Employee\" />
+    <None Remove="Employee\entity\" />
+    <None Remove="Employee\Dto\" />
+    <None Remove="Employee\Service\" />
+    <None Remove="Table\" />
+    <None Remove="Table\Entity\" />
+    <None Remove="Table\Repository\" />
+    <None Remove="Table\Service\" />
+    <None Remove="Client\" />
+    <None Remove="Table\DTO\" />
+    <None Remove="Client\DTO\" />
+    <None Remove="Client\Entity\" />
+    <None Remove="Client\Repository\" />
+    <None Remove="Client\Service\" />
+    <None Remove="Event\" />
+    <None Remove="Event\DTO\" />
+    <None Remove="Event\Entity\" />
+    <None Remove="Event\Service\" />
+    <None Remove="Event\Repository\" />
+    <None Remove="Common\" />
+    <None Remove="Transaction\" />
+    <None Remove="Transaction\Repository\" />
+    <None Remove="Transaction\Service\" />
+    <None Remove="Transaction\Entity\" />
+    <None Remove="Transaction\DTO\" />
+    <None Remove="Users\Repository\" />
+    <None Remove="Users\Service\" />
+    <None Remove="Users\DTO\" />
+    <None Remove="Order\" />
+    <None Remove="Order\Entity\" />
+    <None Remove="Shift\" />
+    <None Remove="Shift\Entity\" />
+    <None Remove="Order\Repository\" />
+    <None Remove="Shift\Repository\" />
+    <None Remove="Shift\Service\" />
+    <None Remove="Shift\DTO\" />
+    <None Remove="Order\DTO\" />
+    <None Remove="Meal\DTO\" />
+    <None Remove="Meal\Service\" />
+    <None Remove="Order\Service\" />
+    <None Remove="Users\UserNotifier\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Category\" />
+    <Folder Include="Meal\" />
+    <Folder Include="Category\Enttity\" />
+    <Folder Include="Category\Repository\" />
+    <Folder Include="Category\Service\" />
+    <Folder Include="Meal\Entity\" />
+    <Folder Include="Meal\Repository\" />
+    <Folder Include="Users\" />
+    <Folder Include="Users\entity\" />
+    <Folder Include="Category\DTO\" />
+    <Folder Include="Employee\" />
+    <Folder Include="Employee\entity\" />
+    <Folder Include="Employee\Dto\" />
+    <Folder Include="Employee\Service\" />
+    <Folder Include="Employee\Repository\" />
+    <Folder Include="Table\" />
+    <Folder Include="Table\Entity\" />
+    <Folder Include="Table\Repository\" />
+    <Folder Include="Table\Service\" />
+    <Folder Include="Client\" />
+    <Folder Include="Table\DTO\" />
+    <Folder Include="Client\DTO\" />
+    <Folder Include="Client\Entity\" />
+    <Folder Include="Client\Repository\" />
+    <Folder Include="Client\Service\" />
+    <Folder Include="Event\" />
+    <Folder Include="Event\DTO\" />
+    <Folder Include="Event\Entity\" />
+    <Folder Include="Event\Service\" />
+    <Folder Include="Event\Repository\" />
+    <Folder Include="Common\" />
+    <Folder Include="Transaction\" />
+    <Folder Include="Transaction\Repository\" />
+    <Folder Include="Transaction\Service\" />
+    <Folder Include="Transaction\Entity\" />
+    <Folder Include="Transaction\DTO\" />
+    <Folder Include="Users\Repository\" />
+    <Folder Include="Users\Service\" />
+    <Folder Include="Users\DTO\" />
+    <Folder Include="Order\" />
+    <Folder Include="Order\Entity\" />
+    <Folder Include="Shift\" />
+    <Folder Include="Shift\Entity\" />
+    <Folder Include="Order\Repository\" />
+    <Folder Include="Shift\Repository\" />
+    <Folder Include="Shift\Service\" />
+    <Folder Include="Shift\DTO\" />
+    <Folder Include="Order\DTO\" />
+    <Folder Include="Meal\DTO\" />
+    <Folder Include="Meal\Service\" />
+    <Folder Include="Order\Service\" />
+    <Folder Include="Users\UserNotifier\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+</Project>
